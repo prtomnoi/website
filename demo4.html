@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <h1 class="text-center">Table Bootstrap</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table">
+                    <tr>
+                        <th>Number</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Map</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>สมชาย สบายดี</td>
+                        <td>9999 กรุงเทพจร้า</td>
+                         <td><a href="https://maps.app.goo.gl/Fb5UoUVUw7BYtUpb7" class="btn btn-warning">แผนที่</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form action="">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="">ชื่อ - นามสกุล</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <label for="">ชื่อเล่น</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-12">
+                            <label for="">ที่อยู่</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label for="">วันเดือนปีเกิด</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label for="">อายุ</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label for="">เพศ</label>
+                            <select name="" class="form-control">
+                                <option value="">ชาย</option>
+                                <option value="">หญิง</option>
+                                <option value="">ไม่ประสงค์ลงนาม</option>
+                            </select>
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <button class="btn btn-success">บันทึก</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

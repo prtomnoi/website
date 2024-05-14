@@ -1,0 +1,31 @@
+body {
+    background-color: #e2b3b3;
+}
+.img-profile{
+    border-radius: 50%; /* สร้างทรงกลม */
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.btn{
+    /* background-color: blueviolet; */
+    /* padding: 30px; */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 5%;
+    border: 1px solid #000000;
+}
+.btn-red{
+    background-color: #ff2d2d;
+    color : #000000;
+}
+.btn-green{
+    background-color: #04ce81;
+    color : #f44545;
+}
+.btn-pink{
+    background-color: #d77bd1;
+    color : #ffffff;
+}
